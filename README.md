@@ -1,39 +1,39 @@
 # Final Project Danish (Mobile App)
 
-Aplikasi Android **pengurusan tugasan pelajar** (Student Task Manager) — dibangunkan sebagai sebahagian projek akhir tahun (FYP).
+An Android **Student Task Manager** app, built as a Final Year Project (FYP).
 
-**Repo GitHub:** [kl2408016634-oss/mobileapp](https://github.com/kl2408016634-oss/mobileapp)
+**GitHub repository:** [kl2408016634-oss/mobileapp](https://github.com/kl2408016634-oss/mobileapp)
 
-## Penulis
+## Author
 
 Muhammad Danish Aqmar Bin Hamzah  
 Universiti Poly-Tech MARA (UPTM)
 
-## Ciri utama
+## Features
 
-- Skrin splash, senarai tugasan, tambah / edit tugasan, dan butiran tugasan
-- Data disimpan secara tempatan menggunakan SQLite (`DatabaseHelper`)
+- Splash screen, task list, add / edit tasks, and task detail views
+- Local data storage with SQLite (`DatabaseHelper`)
 
-## Teknologi
+## Tech stack
 
 - Kotlin
 - Android SDK (minSdk 24, targetSdk 36)
 - Android Studio / Gradle
 
-## Cara membuka projek
+## How to run the project
 
-1. Clone repositori ini.
-2. Buka folder projek dalam **Android Studio**.
-3. Serahkan `Gradle sync`, kemudian **Run** pada emulator atau peranti.
+1. Clone this repository.
+2. Open the project folder in **Android Studio**.
+3. Run **Gradle sync**, then **Run** on an emulator or physical device.
 
-## Struktur ringkas
+## Project layout
 
-| Folder | Keterangan |
-|--------|------------|
-| `app/` | Kod sumber aplikasi & sumber Android |
-| `docs/` | Dokumen berkaitan (contoh laporan FYP) |
-| `gradle/` | Wrapper & konfigurasi Gradle |
+| Folder | Description |
+|--------|-------------|
+| `app/` | Application source code and Android resources |
+| `docs/` | Related documents (e.g. FYP report) |
+| `gradle/` | Gradle wrapper and configuration |
 
 ---
 
-*Kandungan laporan dan dokumentasi lanjut ada dalam folder `docs/`.*
+*Further report material and documentation are in the `docs/` folder.*
